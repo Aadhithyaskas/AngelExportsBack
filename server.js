@@ -15,7 +15,7 @@ const app = express();
 // Core middleware
 
 app.use(cors({
-  origin: "https://angelexportsback.onrender.com",
+  origin: "https://angelexportsfront.onrender.com",
   credentials: true,
 }));
 
